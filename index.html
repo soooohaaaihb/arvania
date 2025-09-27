@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowDent - Caring for Your Smile, One Visit at a Time</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <span class="logo-glow">Glow</span><span class="logo-dent">Dent</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#team" class="nav-link">Team</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-card">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1 class="hero-title">
+                                <span class="title-line">Caring for Your</span>
+                                <span class="title-line italic">Smile,</span>
+                                <span class="title-line">One Visit at a Time.</span>
+                            </h1>
+                            <p class="hero-description">
+                                Your smile is more than just an expression, it's a reflection of your confidence, health, and happiness.
+                            </p>
+                            <button class="cta-button primary-cta" aria-label="Set Appointment">Set Appointment</button>
+                            <a href="#about" class="about-link" aria-label="Learn more about us">
+                                About Us
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="hero-image-wrapper">
+                            <div class="image-frame">
+                                <!-- Main Hero Image -->
+                                <img src="Untitled design (2).png" alt="Hero Image" class="hero-main-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">
+                            We create lasting relationships — built on <span class="italic">trust and care</span>.
+                        </h2>
+                        <p class="section-description">
+                            Our team is committed to making every visit comfortable, effective, and tailored for you.
+                        </p>
+                        <div class="stats-row">
+                            <div class="stat-card">
+                                <span class="stat-number" data-target="485">0</span>
+                                <span class="stat-label">Satisfaction</span>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-card">
+                                <span class="stat-number" data-target="485">0</span>
+                                <span class="stat-label">Smiles</span>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-card">
+                                <span class="stat-number" data-target="4.9">0</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="visual-card">
+                            <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVudGlzdHxlbnwwfHwwfHx8Mg%3D%3D" alt="Doctor-patient interaction" class="visual-image">
+                            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Modern clinic interior" class="visual-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title center">Our Services</h2>
+                <div class="services-layout">
+                    <div class="services-tabs">
+                        <div class="service-tab active" data-service="orthodontics" role="button" aria-selected="true" aria-controls="orthodontics-content">
+                            Orthodontics
+                        </div>
+                        <div class="service-tab" data-service="cosmetic" role="button" aria-selected="false" aria-controls="cosmetic-content">
+                            Cosmetic Dentistry
+                        </div>
+                        <div class="service-tab" data-service="restoration" role="button" aria-selected="false" aria-controls="restoration-content">
+                            Dental Restoration
+                        </div>
+                        <div class="service-tab" data-service="pediatric" role="button" aria-selected="false" aria-controls="pediatric-content">
+                            Pediatric Dentistry
+                        </div>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card" data-service="orthodontics">
+                            <div class="service-image">
+                                <img src="https://plus.unsplash.com/premium_photo-1663088767412-b10c8dc27ad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRlbnRpc3R8ZW58MHx8MHx8fDA%3D" alt="Orthodontics service" class="service-img">
+                            </div>
+                            <h3>Orthodontics</h3>
+                            <p>Correct misalignment with personalized braces & aligners.</p>
+                            <div class="service-arrow">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-card" data-service="cosmetic">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1670250492416-570b5b7343b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRlbnRpc3R8ZW58MHx8MHx8fDA%3D" alt="Cosmetic dentistry service" class="service-img">
+                            </div>
+                            <h3>Cosmetic Dentistry</h3>
+                            <p>Veneers, whitening, and smile makeovers.</p>
+                            <div class="service-arrow">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-card" data-service="restoration">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVudGlzdHxlbnwwfHwwfHx8MA%3D%3D" alt="Dental restoration service" class="service-img">
+                            </div>
+                            <h3>Dental Restoration</h3>
+                            <p>Crowns, bridges and long-lasting restorations.</p>
+                            <div class="service-arrow">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="service-card" data-service="pediatric">
+                            <div class="service-image">
+                                <img src="https://plus.unsplash.com/premium_photo-1681966962522-546f370bc98e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGVudGlzdHxlbnwwfHwwfHx8MA%3D%3D" alt="Pediatric dentistry service" class="service-img">
+                            </div>
+                            <h3>Pediatric Dentistry</h3>
+                            <p>Gentle care for young smiles.</p>
+                            <div class="service-arrow">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title center">What Patients Say</h2>
+                <div class="testimonials-container">
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="testimonial-avatar">
+                                    <img src="https://placehold.co/80x80?text=B" alt="Brenda">
+                                </div>
+                                <blockquote>
+                                    — The best dental experience I've ever had. The team was professional and made me feel comfortable.
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <p class="author-name">Brenda</p>
+                                    <p class="author-role">Patient</p>
+                                </div>
+                                <div class="rating">
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star half">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="testimonial-avatar">
+                                    <img src="https://placehold.co/80x80?text=M" alt="Michael">
+                                </div>
+                                <blockquote>
+                                    — Dr. Sato transformed my smile with veneers. The results exceeded my expectations!
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <p class="author-name">Michael</p>
+                                    <p class="author-role">Patient</p>
+                                </div>
+                                <div class="rating">
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="testimonial-avatar">
+                                    <img src="https://placehold.co/80x80?text=J" alt="Jennifer">
+                                </div>
+                                <blockquote>
+                                    — The pediatric team made my child's first dental visit enjoyable and stress-free.
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <p class="author-name">Jennifer</p>
+                                    <p class="author-role">Parent</p>
+                                </div>
+                                <div class="rating">
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                    <span class="star active">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team-section">
+            <div class="container">
+                <h2 class="section-title center">Meet Our Dental Specialists</h2>
+                <div class="team-grid">
+                    <div class="team-card" data-member-id="1">
+                        <div class="team-image">
+                            <img src="https://placehold.co/120x120?text=Dr.+Hana" alt="Dr. Hana Sato" class="team-avatar">
+                        </div>
+                        <h3 class="team-name">Dr. Hana Sato</h3>
+                        <p class="team-role">Cosmetic Dentist</p>
+                        <p class="team-bio">15+ years creating confident smiles.</p>
+                        <div class="team-overlay">
+                            <button class="cta-button book-consultation">Book Consultation</button>
+                        </div>
+                    </div>
+                    <div class="team-card" data-member-id="2">
+                        <div class="team-image">
+                            <img src="https://placehold.co/120x120?text=Dr.+Mark" alt="Dr. Mark Liu" class="team-avatar">
+                        </div>
+                        <h3 class="team-name">Dr. Mark Liu</h3>
+                        <p class="team-role">Orthodontist</p>
+                        <p class="team-bio">Specialist in clear aligner therapy.</p>
+                        <div class="team-overlay">
+                            <button class="cta-button book-consultation">Book Consultation</button>
+                        </div>
+                    </div>
+                    <div class="team-card" data-member-id="3">
+                        <div class="team-image">
+                            <img src="https://placehold.co/120x120?text=Dr.+Sarah" alt="Dr. Sarah Johnson" class="team-avatar">
+                        </div>
+                        <h3 class="team-name">Dr. Sarah Johnson</h3>
+                        <p class="team-role">Pediatric Dentist</p>
+                        <p class="team-bio">Creating positive experiences for young patients.</p>
+                        <div class="team-overlay">
+                            <button class="cta-button book-consultation">Book Consultation</button>
+                        </div>
+                    </div>
+                    <div class="team-card" data-member-id="4">
+                        <div class="team-image">
+                            <img src="https://placehold.co/120x120?text=Dr.+James" alt="Dr. James Wilson" class="team-avatar">
+                        </div>
+                        <h3 class="team-name">Dr. James Wilson</h3>
+                        <p class="team-role">Restorative Dentist</p>
+                        <p class="team-bio">Expert in long-lasting dental restorations.</p>
+                        <div class="team-overlay">
+                            <button class="cta-button book-consultation">Book Consultation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title center">Illuminate Your Smile — Book a Visit</h2>
+                <div class="contact-layout">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required aria-describedby="name-error">
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required aria-describedby="email-error">
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required aria-describedby="phone-error">
+                            <div class="error-message" id="phone-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required aria-describedby="message-error"></textarea>
+                            <div class="error-message" id="message-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date & Time</label>
+                            <input type="datetime-local" id="date" name="date" required aria-describedby="date-error">
+                            <div class="error-message" id="date-error"></div>
+                        </div>
+                        <button type="submit" class="cta-button primary-cta">Set Appointment</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <div>
+                                    <p>123 Dental Street</p>
+                                    <p>Smile City, SC 12345</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                <div>
+                                    <p>(555) 123-4567</p>
+                                    <p>info@glowdent.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-card">
+                            <img src="https://placehold.co/400x300?text=Clinic+Map" alt="Clinic location map" class="map-image">
+                        </div>
+                        <div class="business-hours">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 8am - 6pm</p>
+                            <p>Saturday: 9am - 2pm</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="logo">
+                        <span class="logo-glow">Glow</span><span class="logo-dent">Dent</span>
+                    </div>
+                    <p class="footer-description">
+                        Caring for your smile, one visit at a time. Our team is committed to making every visit comfortable, effective, and tailored for you.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook" class="social-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4h-4V7h-3a5 5 0 00-5 5v3h-2v4h2v8h4v-8h3l1-4......"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Orthodontics</a></li>
+                        <li><a href="#">Cosmetic Dentistry</a></li>
+                        <li><a href="#">Dental Restoration</a></li>
+                        <li><a href="#">Pediatric Dentistry</a></li>
+                        <li><a href="#">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p>123 Dental Street</p>
+                        <p>Smile City, SC 12345</p>
+                        <p>(555) 123-4567</p>
+                        <p>info@glowdent.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GlowDent. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
